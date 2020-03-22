@@ -1,4 +1,4 @@
 This script can handle 3 commandline parameters:
-- '-apikey': specify your API key
-- '-symbol': specify the symbol of the stock you want to get the data from
-- '-function': specify which function you would like to call. At the moment 'intraday' and 'quote' are supported
+- '-apikey': specify your API key. If not provided it defaults to 'demo'
+- '-symbol': specify the symbol of the stock you want to get the data from. If not provided it defaults to 'MSFT'
+- '-function': specify which function you would like to call. At the moment 'intraday' and 'quote' are supported. If not provided it defaults to 'intraday'
